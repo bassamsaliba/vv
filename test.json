@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "views": [
+      {
+        "id": 1,
+        "name": "Page1",
+        "icon": "mdi-home",
+        "route": "/page1",
+        "styles": "<style>\n</style>",
+        "class": "",
+        "handlers": [
+          { "name": "mounted", "code": "" },
+          { "name": "unmounted", "code": "" },
+          { "name": "created", "code": "" },
+          { "name": "activated", "code": "" },
+          { "name": "deactivated", "code": "" },
+          { "name": "updated", "code": "" },
+          { "name": "beforeCreate", "code": "" },
+          { "name": "errorCapture", "code": "" },
+          { "name": "beforeUpdate", "code": "" },
+          { "name": "beforeMount", "code": "" }
+        ],
+        "controls": []
+      }
+    ],
+    "name": "Project 1",
+    "github": ""
+  }
+]
