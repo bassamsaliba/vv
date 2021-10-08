@@ -1,255 +1,165 @@
 {
-    "id": "test3",
-    "views": [
-      {
-        "id": "234243",
-        "name": "Home",
-        "icon": "mdi-home",
-        "route": "/page1",
-        "styles": "<style>\n</style>",
-        "class": "",
-        "handlers": [
-          { "name": "mounted", "code": "" },
-          { "name": "unmounted", "code": "" },
-          { "name": "created", "code": "" },
-          { "name": "activated", "code": "" },
-          { "name": "deactivated", "code": "" },
-          { "name": "updated", "code": "" },
-          { "name": "beforeCreate", "code": "" },
-          { "name": "errorCapture", "code": "" },
-          { "name": "beforeUpdate", "code": "" },
-          { "name": "beforeMount", "code": "" }
-        ],
-        "controls": [{
-            "widget": {
-              "name": "btn",
-              "icon": "mdi-gesture-tap-button",
-              "component": "btn",
-              "properties": [
-                {
-                  "name": "elevation",
-                  "default": "1",
-                  "type": 1,
-                  "min": 0,
-                  "max": 25,
-                  "list": []
-                },
-                {
-                  "name": "label",
-                  "default": "Label",
-                  "type": 0,
-                  "min": 0,
-                  "max": 100,
-                  "list": []
-                },
-                {
-                  "name": "class",
-                  "default": "primary",
-                  "type": 0,
-                  "min": 0,
-                  "max": 100,
-                  "list": []
-                },
-                {
-                  "name": "dark",
-                  "default": false,
-                  "type": 3,
-                  "min": 0,
-                  "max": 100,
-                  "list": []
-                }
-              ],
-              "handlers": ["click", "dblclick"]
-            },
-            "selected": false,
+  "id": "f81aff9d-00fb-1c1d-460a-6d892f489b18",
+  "views": [
+    {
+      "id": 1,
+      "name": "Page1",
+      "icon": "mdi-home",
+      "route": "/page1",
+      "styles": "<style>\n</style>",
+      "class": "",
+      "handlers": [
+        { "name": "mounted", "code": "" },
+        { "name": "unmounted", "code": "" },
+        { "name": "created", "code": "" },
+        { "name": "activated", "code": "" },
+        { "name": "deactivated", "code": "" },
+        { "name": "updated", "code": "" },
+        { "name": "beforeCreate", "code": "" },
+        { "name": "errorCapture", "code": "" },
+        { "name": "beforeUpdate", "code": "" },
+        { "name": "beforeMount", "code": "" }
+      ],
+      "controls": [
+        {
+          "widget": {
+            "name": "btn",
+            "icon": "mdi-gesture-tap-button",
+            "component": "btn",
             "properties": [
               {
-                "widgetProperty": {
-                  "name": "model",
-                  "default": "btn1",
-                  "type": 4,
-                  "min": 0,
-                  "max": 0,
-                  "list": []
-                },
-                "value": "btn1"
+                "name": "elevation",
+                "default": "1",
+                "type": 1,
+                "min": 0,
+                "max": 25,
+                "list": []
               },
               {
-                "widgetProperty": {
-                  "name": "cols",
-                  "default": "4",
-                  "type": 1,
-                  "min": 1,
-                  "max": 12,
-                  "list": []
-                },
-                "value": 4
+                "name": "label",
+                "default": "Label",
+                "type": 0,
+                "min": 0,
+                "max": 100,
+                "list": []
               },
               {
-                "widgetProperty": {
-                  "name": "elevation",
-                  "default": "1",
-                  "type": 1,
-                  "min": 0,
-                  "max": 25,
-                  "list": []
-                },
-                "value": "1"
+                "name": "class",
+                "default": "primary",
+                "type": 0,
+                "min": 0,
+                "max": 100,
+                "list": []
               },
               {
-                "widgetProperty": {
-                  "name": "label",
-                  "default": "Label",
-                  "type": 0,
-                  "min": 0,
-                  "max": 100,
-                  "list": []
-                },
-                "value": "Label"
-              },
-              {
-                "widgetProperty": {
-                  "name": "class",
-                  "default": "primary",
-                  "type": 0,
-                  "min": 0,
-                  "max": 100,
-                  "list": []
-                },
-                "value": "primary"
-              },
-              {
-                "widgetProperty": {
-                  "name": "dark",
-                  "default": false,
-                  "type": 3,
-                  "min": 0,
-                  "max": 100,
-                  "list": []
-                },
-                "value": false
+                "name": "dark",
+                "default": false,
+                "type": 3,
+                "min": 0,
+                "max": 100,
+                "list": []
               }
             ],
-            "handlers": [
-              { "name": "click", "code": "// code here" },
-              { "name": "dblclick", "code": "// code here" }
-            ]
+            "handlers": ["click", "dblclick"]
           },
-          {
-            "widget": {
-              "name": "Slider",
-              "icon": "mdi-slider",
-              "component": "slider",
-              "properties": [
-                {
-                  "name": "min",
-                  "default": 0,
-                  "type": 1,
-                  "min": 0,
-                  "max": 100,
-                  "list": []
-                },
-                {
-                  "name": "max",
-                  "default": 0,
-                  "type": 1,
-                  "min": 0,
-                  "max": 100,
-                  "list": []
-                },
-                {
-                  "name": "label",
-                  "default": "Slider",
-                  "type": 0,
-                  "min": 0,
-                  "max": 100,
-                  "list": []
-                },
-                {
-                  "name": "alignment",
-                  "default": 0,
-                  "type": 2,
-                  "min": 0,
-                  "max": 100,
-                  "list": ["Left", "Right", "Center"]
-                }
-              ],
-              "handlers": []
+          "selected": false,
+          "properties": [
+            {
+              "widgetProperty": {
+                "name": "model",
+                "default": "btn1",
+                "type": 4,
+                "min": 0,
+                "max": 0,
+                "list": []
+              },
+              "value": "btn1"
             },
-            "selected": false,
-            "properties": [
-              {
-                "widgetProperty": {
-                  "name": "model",
-                  "default": "Slider2",
-                  "type": 4,
-                  "min": 0,
-                  "max": 0,
-                  "list": []
-                },
-                "value": "Slider2"
+            {
+              "widgetProperty": {
+                "name": "cols",
+                "default": "4",
+                "type": 1,
+                "min": 1,
+                "max": 12,
+                "list": []
               },
-              {
-                "widgetProperty": {
-                  "name": "cols",
-                  "default": "4",
-                  "type": 1,
-                  "min": 1,
-                  "max": 12,
-                  "list": []
-                },
-                "value": 4
+              "value": 4
+            },
+            {
+              "widgetProperty": {
+                "name": "elevation",
+                "default": "1",
+                "type": 1,
+                "min": 0,
+                "max": 25,
+                "list": []
               },
-              {
-                "widgetProperty": {
-                  "name": "min",
-                  "default": 0,
-                  "type": 1,
-                  "min": 0,
-                  "max": 100,
-                  "list": []
-                },
-                "value": 0
+              "value": "1"
+            },
+            {
+              "widgetProperty": {
+                "name": "label",
+                "default": "Label",
+                "type": 0,
+                "min": 0,
+                "max": 100,
+                "list": []
               },
-              {
-                "widgetProperty": {
-                  "name": "max",
-                  "default": 0,
-                  "type": 1,
-                  "min": 0,
-                  "max": 100,
-                  "list": []
-                },
-                "value": 0
+              "value": "Label"
+            },
+            {
+              "widgetProperty": {
+                "name": "class",
+                "default": "primary",
+                "type": 0,
+                "min": 0,
+                "max": 100,
+                "list": []
               },
-              {
-                "widgetProperty": {
-                  "name": "label",
-                  "default": "Slider",
-                  "type": 0,
-                  "min": 0,
-                  "max": 100,
-                  "list": []
-                },
-                "value": "Slider"
+              "value": "primary"
+            },
+            {
+              "widgetProperty": {
+                "name": "dark",
+                "default": false,
+                "type": 3,
+                "min": 0,
+                "max": 100,
+                "list": []
               },
-              {
-                "widgetProperty": {
-                  "name": "alignment",
-                  "default": 0,
-                  "type": 2,
-                  "min": 0,
-                  "max": 100,
-                  "list": ["Left", "Right", "Center"]
-                },
-                "value": 0
-              }
-            ],
-            "handlers": []
-          }
-        ]
-      }
-    ],
-    "name": "Test 3",
-    "github": ""
-  }
+              "value": false
+            }
+          ],
+          "handlers": [
+            { "name": "click", "code": "// code here" },
+            { "name": "dblclick", "code": "// code here" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Page2",
+      "icon": "mdi-home",
+      "route": "/page2",
+      "styles": "<style>\n</style>",
+      "class": "",
+      "handlers": [
+        { "name": "mounted", "code": "" },
+        { "name": "unmounted", "code": "" },
+        { "name": "created", "code": "" },
+        { "name": "activated", "code": "" },
+        { "name": "deactivated", "code": "" },
+        { "name": "updated", "code": "" },
+        { "name": "beforeCreate", "code": "" },
+        { "name": "errorCapture", "code": "" },
+        { "name": "beforeUpdate", "code": "" },
+        { "name": "beforeMount", "code": "" }
+      ],
+      "controls": []
+    }
+  ],
+  "name": "Project 1",
+  "github": ""
+}
