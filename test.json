@@ -3,8 +3,8 @@
     "id": 1,
     "views": [
       {
-        "id": 1,
-        "name": "Page1",
+        "id": "234243",
+        "name": "Home",
         "icon": "mdi-home",
         "route": "/page1",
         "styles": "<style>\n</style>",
@@ -21,7 +21,234 @@
           { "name": "beforeUpdate", "code": "" },
           { "name": "beforeMount", "code": "" }
         ],
-        "controls": []
+        "controls": [{
+            "widget": {
+              "name": "btn",
+              "icon": "mdi-gesture-tap-button",
+              "component": "btn",
+              "properties": [
+                {
+                  "name": "elevation",
+                  "default": "1",
+                  "type": 1,
+                  "min": 0,
+                  "max": 25,
+                  "list": []
+                },
+                {
+                  "name": "label",
+                  "default": "Label",
+                  "type": 0,
+                  "min": 0,
+                  "max": 100,
+                  "list": []
+                },
+                {
+                  "name": "class",
+                  "default": "primary",
+                  "type": 0,
+                  "min": 0,
+                  "max": 100,
+                  "list": []
+                },
+                {
+                  "name": "dark",
+                  "default": false,
+                  "type": 3,
+                  "min": 0,
+                  "max": 100,
+                  "list": []
+                }
+              ],
+              "handlers": ["click", "dblclick"]
+            },
+            "selected": false,
+            "properties": [
+              {
+                "widgetProperty": {
+                  "name": "model",
+                  "default": "btn1",
+                  "type": 4,
+                  "min": 0,
+                  "max": 0,
+                  "list": []
+                },
+                "value": "btn1"
+              },
+              {
+                "widgetProperty": {
+                  "name": "cols",
+                  "default": "4",
+                  "type": 1,
+                  "min": 1,
+                  "max": 12,
+                  "list": []
+                },
+                "value": 4
+              },
+              {
+                "widgetProperty": {
+                  "name": "elevation",
+                  "default": "1",
+                  "type": 1,
+                  "min": 0,
+                  "max": 25,
+                  "list": []
+                },
+                "value": "1"
+              },
+              {
+                "widgetProperty": {
+                  "name": "label",
+                  "default": "Label",
+                  "type": 0,
+                  "min": 0,
+                  "max": 100,
+                  "list": []
+                },
+                "value": "Label"
+              },
+              {
+                "widgetProperty": {
+                  "name": "class",
+                  "default": "primary",
+                  "type": 0,
+                  "min": 0,
+                  "max": 100,
+                  "list": []
+                },
+                "value": "primary"
+              },
+              {
+                "widgetProperty": {
+                  "name": "dark",
+                  "default": false,
+                  "type": 3,
+                  "min": 0,
+                  "max": 100,
+                  "list": []
+                },
+                "value": false
+              }
+            ],
+            "handlers": [
+              { "name": "click", "code": "// code here" },
+              { "name": "dblclick", "code": "// code here" }
+            ]
+          },
+          {
+            "widget": {
+              "name": "Slider",
+              "icon": "mdi-slider",
+              "component": "slider",
+              "properties": [
+                {
+                  "name": "min",
+                  "default": 0,
+                  "type": 1,
+                  "min": 0,
+                  "max": 100,
+                  "list": []
+                },
+                {
+                  "name": "max",
+                  "default": 0,
+                  "type": 1,
+                  "min": 0,
+                  "max": 100,
+                  "list": []
+                },
+                {
+                  "name": "label",
+                  "default": "Slider",
+                  "type": 0,
+                  "min": 0,
+                  "max": 100,
+                  "list": []
+                },
+                {
+                  "name": "alignment",
+                  "default": 0,
+                  "type": 2,
+                  "min": 0,
+                  "max": 100,
+                  "list": ["Left", "Right", "Center"]
+                }
+              ],
+              "handlers": []
+            },
+            "selected": false,
+            "properties": [
+              {
+                "widgetProperty": {
+                  "name": "model",
+                  "default": "Slider2",
+                  "type": 4,
+                  "min": 0,
+                  "max": 0,
+                  "list": []
+                },
+                "value": "Slider2"
+              },
+              {
+                "widgetProperty": {
+                  "name": "cols",
+                  "default": "4",
+                  "type": 1,
+                  "min": 1,
+                  "max": 12,
+                  "list": []
+                },
+                "value": 4
+              },
+              {
+                "widgetProperty": {
+                  "name": "min",
+                  "default": 0,
+                  "type": 1,
+                  "min": 0,
+                  "max": 100,
+                  "list": []
+                },
+                "value": 0
+              },
+              {
+                "widgetProperty": {
+                  "name": "max",
+                  "default": 0,
+                  "type": 1,
+                  "min": 0,
+                  "max": 100,
+                  "list": []
+                },
+                "value": 0
+              },
+              {
+                "widgetProperty": {
+                  "name": "label",
+                  "default": "Slider",
+                  "type": 0,
+                  "min": 0,
+                  "max": 100,
+                  "list": []
+                },
+                "value": "Slider"
+              },
+              {
+                "widgetProperty": {
+                  "name": "alignment",
+                  "default": 0,
+                  "type": 2,
+                  "min": 0,
+                  "max": 100,
+                  "list": ["Left", "Right", "Center"]
+                },
+                "value": 0
+              }
+            ],
+            "handlers": []
+          }
+        ]
       }
     ],
     "name": "Test",
