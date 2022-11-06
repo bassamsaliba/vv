@@ -719,6 +719,162 @@
                 }
             ],
             "controls": []
+        },
+        {
+            "id": 5,
+            "name": "Page5",
+            "icon": "mdi-home",
+            "route": "/page5",
+            "styles": "<style>\n</style>",
+            "class": "",
+            "data": "// Any additional page-level data here",
+            "handlers": [
+                {
+                    "name": "mounted",
+                    "code": ""
+                },
+                {
+                    "name": "unmounted",
+                    "code": ""
+                },
+                {
+                    "name": "created",
+                    "code": ""
+                },
+                {
+                    "name": "activated",
+                    "code": ""
+                },
+                {
+                    "name": "deactivated",
+                    "code": ""
+                },
+                {
+                    "name": "updated",
+                    "code": ""
+                },
+                {
+                    "name": "beforeCreate",
+                    "code": ""
+                },
+                {
+                    "name": "errorCapture",
+                    "code": ""
+                },
+                {
+                    "name": "beforeUpdate",
+                    "code": ""
+                },
+                {
+                    "name": "beforeMount",
+                    "code": ""
+                }
+            ],
+            "controls": []
+        },
+        {
+            "id": 6,
+            "name": "Page6",
+            "icon": "mdi-home",
+            "route": "/page6",
+            "styles": "<style>\n</style>",
+            "class": "",
+            "data": "// Any additional page-level data here",
+            "handlers": [
+                {
+                    "name": "mounted",
+                    "code": ""
+                },
+                {
+                    "name": "unmounted",
+                    "code": ""
+                },
+                {
+                    "name": "created",
+                    "code": ""
+                },
+                {
+                    "name": "activated",
+                    "code": ""
+                },
+                {
+                    "name": "deactivated",
+                    "code": ""
+                },
+                {
+                    "name": "updated",
+                    "code": ""
+                },
+                {
+                    "name": "beforeCreate",
+                    "code": ""
+                },
+                {
+                    "name": "errorCapture",
+                    "code": ""
+                },
+                {
+                    "name": "beforeUpdate",
+                    "code": ""
+                },
+                {
+                    "name": "beforeMount",
+                    "code": ""
+                }
+            ],
+            "controls": []
+        },
+        {
+            "id": 7,
+            "name": "Page7",
+            "icon": "mdi-home",
+            "route": "/page7",
+            "styles": "<style>\n</style>",
+            "class": "",
+            "data": "// Any additional page-level data here",
+            "handlers": [
+                {
+                    "name": "mounted",
+                    "code": ""
+                },
+                {
+                    "name": "unmounted",
+                    "code": ""
+                },
+                {
+                    "name": "created",
+                    "code": ""
+                },
+                {
+                    "name": "activated",
+                    "code": ""
+                },
+                {
+                    "name": "deactivated",
+                    "code": ""
+                },
+                {
+                    "name": "updated",
+                    "code": ""
+                },
+                {
+                    "name": "beforeCreate",
+                    "code": ""
+                },
+                {
+                    "name": "errorCapture",
+                    "code": ""
+                },
+                {
+                    "name": "beforeUpdate",
+                    "code": ""
+                },
+                {
+                    "name": "beforeMount",
+                    "code": ""
+                }
+            ],
+            "controls": []
         }
     ],
     "name": "Project from Github 3",
